@@ -4,7 +4,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     func shakeByX() {
         let animation = CABasicAnimation(keyPath: "position")
         animation.duration = 0.07
