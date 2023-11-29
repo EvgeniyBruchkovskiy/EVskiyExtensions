@@ -5,7 +5,7 @@
 import UIKit
 
 public extension UIView {
-    func shakeByX() {
+    public func shakeByX() {
         let animation = CABasicAnimation(keyPath: "position")
         animation.duration = 0.07
         animation.repeatCount = 3
@@ -15,7 +15,7 @@ public extension UIView {
         self.layer.add(animation, forKey: "position")
     }
 
-    func shakeByY() {
+    public func shakeByY() {
         let animation = CABasicAnimation(keyPath: "position")
         animation.duration = 0.07
         animation.repeatCount = 3
